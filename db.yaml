@@ -1,0 +1,5 @@
+- name: configufe ansible
+  hosts: db
+  become: yes
+  roles:
+    - db
