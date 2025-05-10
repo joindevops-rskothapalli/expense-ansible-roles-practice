@@ -1,5 +1,5 @@
 - name: configue db server
   hosts: db
   become: yes
-  roles: 
+  roles:
   - db
