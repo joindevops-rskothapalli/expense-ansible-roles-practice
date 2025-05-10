@@ -31,7 +31,7 @@
     chdir: /app
 - name: copy backend service
   ansible.builtin.template:
-    src: ansible.service.j2
+    src: backend.service.j2
     dest: /etc/systemd/system/backend.service
 - name: install python and mysql dependencies
   ansible.builtin.pip:
