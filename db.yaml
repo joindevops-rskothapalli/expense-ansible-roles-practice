@@ -1,5 +1,5 @@
-- name: configufe ansible
+- name: configue db server
   hosts: db
   become: yes
-  roles:
-    - db
+  roles: 
+  - db

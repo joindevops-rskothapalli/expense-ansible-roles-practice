@@ -1,4 +1,0 @@
-- name: restart nginix using handlers
-  ansible.builtin.service:
-    name: nginx
-    state: restarted
