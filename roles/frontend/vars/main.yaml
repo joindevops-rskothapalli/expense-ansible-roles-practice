@@ -1,1 +1,3 @@
 BACKEND_API_URL: backend.rskothapalli.store
+component: frontend
+application_location: /usr/share/nginx/html
