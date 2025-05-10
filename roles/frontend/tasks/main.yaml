@@ -18,7 +18,7 @@
     src: expense.conf.j2
     dest: /etc/nginx/default.d/expense.conf
   notify:
-- restart nginx
+  - restart nginx
 - name: copy bakent conferation
   ansible.builtin.copy:
     src: expense.conf
